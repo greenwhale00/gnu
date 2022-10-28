@@ -35,7 +35,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
         <ul class="inner flex">
             <li><?=$as_slogan?></li>
             <li>
-                <a href="/adm" target="_blank">
+                <a href="/gnu/adm" target="_blank">
                     <i class="xi-bars"></i>
                 </a>
             </li>
@@ -45,7 +45,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
         <div class="inner flex">
             <h1>
                 <a href="/">
-                    <img src="<?php echo G5_THEME_URL ?>/img/logo3.png" alt="<?=$as_title?>">
+                    <img src="<?php echo G5_THEME_URL ?>/img/logo.png" alt="<?=$as_title?>">
                 </a>
             </h1>
             <nav class="gnb">

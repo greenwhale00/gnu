@@ -31,7 +31,7 @@ address {font-style: normal;}
 .top_slogan  { border-bottom: 1px solid var(--gc); line-height: 1.8; font-size: 14px; }
 .top_slogan>ul  { justify-content: space-between; }
 
-.header { line-height: 100px; border-bottom: 1px solid var(--gc); background-color: var(--mc); }
+.header { line-height: 100px; border-bottom: 1px solid var(--gc); }
 .header h1  { font-size: 0; }
 .header .flex { justify-content: space-between; }
 .header .gnb>ul  { display: flex; gap: 40px; font-size: 18px; font-weight: 500; }
