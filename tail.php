@@ -22,7 +22,13 @@ if(G5_COMMUNITY_USE === false) {
 
 
 <footer class="footer">
-    tail
+    <ul>
+        <li>주소 : <?=$as_address?>&nbsp;&nbsp;사업자등록번호 : <?=$as_num?></li>
+        <li>대표전화번호 : <?=$as_tel?>&nbsp;&nbsp;팩스 : <?=$as_fax?></li>
+    </ul>
+    <address>
+        copyright &copy; <?=$as_title?> allrights reserved.
+    </address>
 </footer>
 
 
@@ -41,6 +47,13 @@ if ($config['cf_analytics']) {
 }
 ?>
 
+<?
+if($_GET["bo_table"]=="qa") {$page_num = 4;}
+else if ($_GET["bo_table"]=="notice") {$page_num = 5;}
+//else {$page_num = "0";}
+//php는 땀을 중요시한다.
+?>
+
 <!-- } 하단 끝 -->
 
 <script>
@@ -48,6 +61,13 @@ $(function() {
     // 폰트 리사이즈 쿠키있으면 실행
     font_resize("container", get_cookie("ck_font_resize_rmv_class"), get_cookie("ck_font_resize_add_class"));
 });
+</script>
+
+<script>
+$(function() {
+    var num = <?=$page_num?>;
+    $('.lnb li').eq(num - 1).addClass('on').siblings().removeClass('on');
+})
 </script>
 
 <?php

@@ -6,10 +6,25 @@
                 <a href="/">HOME</a>
             </li>
             <li>
-                <?=$page_title ?>
+                <?
+                if($bo_table) {
+                    echo $board[bo_subject];
+                } else {
+                    echo $page_title;
+                }
+                ?>
+
             </li>
         </ol>
     </div>
     <div class="inner flex">
         <article class="section">
-            <h3><?=$page_title?></h3>
+            <h3>
+                <?
+                if($bo_table) {
+                    echo $board[bo_subject];
+                } else {
+                    echo $page_title;
+                }
+                ?>
+            </h3>
