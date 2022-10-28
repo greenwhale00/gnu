@@ -1,7 +1,7 @@
 <?php
 include_once('../../../common.php');
-$page_num = 1;
-$page_title = "회사소개";
+$page_num = 3;
+$page_title = "지속가능경영";
 include_once(G5_THEME_PATH.'/head.php');
 ?>
 
@@ -9,9 +9,9 @@ include_once(G5_THEME_PATH.'/head.php');
 <main>
     <section class="main_visual">
         <div class="main_slide">
-            <div>도</div>
-            <div>레</div>
-            <div>미</div>
+            <div>s01</div>
+            <div>s02</div>
+            <div>s03</div>
         </div>
     </section>
 </main>

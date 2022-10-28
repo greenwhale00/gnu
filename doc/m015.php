@@ -9,9 +9,9 @@ include_once(G5_THEME_PATH.'/head.php');
 <main>
     <section class="main_visual">
         <div class="main_slide">
-            <div>도</div>
-            <div>레</div>
-            <div>미</div>
+            <div>s01</div>
+            <div>s02</div>
+            <div>s03</div>
         </div>
     </section>
 </main>
