@@ -21,11 +21,13 @@ include_once(G5_THEME_PATH.'/head.php');
         <div class="main_slide">
             <figure class="itm01">이미지1</figure>
             <figure class="itm02">이미지2</figure>
-            <figure class="itm02">이미지3</figure>
+            <figure class="itm03">이미지3</figure>
         </div>
-        <div class="slogn">
-            <h2>dkdkdkjdkjfjkldklj</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore laborum debitis aut.</p>
+        <div class="slogan">
+            <h2>A Global Leader in<br />Electronic Materials & Foaming Agents</h2>
+            <p>
+                동진쎄미켐은 화학 소재기술의 국산화, 인류의 미래를 만들어가는 새로운 기술,<br /> 인간존중의 정신을 통해 전자재료와 발포제 분야의 글로벌 리더로서 새로운 역사를 만들어가고 있습니다.
+            </p>
         </div>
     </section>
 </main>

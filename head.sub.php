@@ -62,7 +62,7 @@ echo '<link rel="stylesheet" href="'.run_replace('head_css_url', G5_THEME_CSS_UR
 
 
     <link rel="stylesheet" href="<?php echo G5_THEME_URL ?>/css/slick.css">
-    <link rel="stylesheet" href="<?php echo G5_THEME_URL ?>/css/main.css">
+    <link rel="stylesheet" href="<?php echo G5_THEME_URL ?>/css/main.css?ver=1.0">
 
 
 
