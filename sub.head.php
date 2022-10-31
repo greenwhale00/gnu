@@ -7,25 +7,24 @@
             </li>
             <li>
                 <?
-                if($bo_table) {
-                    echo $board[bo_subject];
-                } else {
-                    echo $page_title;
-                }
-                ?>
+            if($bo_table) {
+                echo $board[bo_subject];
+            } else {
+                echo $page_title;
+            }
+            ?>
 
             </li>
         </ol>
     </div>
-
     <div class="inner flex">
         <article class="section">
             <h2>
                 <?
-                if($bo_table) {
-                    echo $board[bo_subject];
-                } else {
-                    echo $page_title;
-                }
-                ?>
+            if($bo_table) {
+                echo $board[bo_subject];
+            } else {
+                echo $page_title;
+            }
+            ?>
             </h2>
