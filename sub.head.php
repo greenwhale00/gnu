@@ -1,6 +1,9 @@
 <div class="sub_page">
 
     <div class="page">
+        <figure>
+            <img src="" alt="">
+        </figure>
         <ol class="inner flex">
             <li>
                 <a href="/">HOME</a>
@@ -17,6 +20,8 @@
             </li>
         </ol>
     </div>
+
+
     <div class="inner flex">
         <article class="section">
             <h2>
