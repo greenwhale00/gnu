@@ -1,7 +1,7 @@
 <?php
 include_once('../../../common.php');
-$page_num = 1;
-$page_title = "회사소개";
+$page_num = 4;
+$page_title = "대기오염방지시설";
 include_once(G5_THEME_PATH.'/head.php');
 ?>
 

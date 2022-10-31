@@ -19,29 +19,32 @@ include_once(G5_THEME_PATH.'/head.php');
 <main class="main_page">
     <section class="main_visual">
         <div class="main_slide">
-            <figure class="itm01">이미지1</figure>
-            <figure class="itm02">이미지2</figure>
-            <figure class="itm03">이미지3</figure>
+            <figure class="itm01"></figure>
+            <figure class="itm02"></figure>
+            <figure class="itm03"></figure>
         </div>
         <div class="slogan">
-            <h2>A Global Leader in<br />Electronic Materials & Foaming Agents</h2>
+            <h2>미래를 선도하는 기업, 듀크린</h2>
             <p>
-                동진쎄미켐은 화학 소재기술의 국산화, 인류의 미래를 만들어가는 새로운 기술,<br /> 인간존중의 정신을 통해 전자재료와 발포제 분야의 글로벌 리더로서 새로운 역사를 만들어가고 있습니다.
+                집진기의 새로운 가치를 더하는 참 된 기업<br />우리는, 당신의 미래를 더욱 더 건강하게 만듭니다.<br />쾌적한 작업환경으로, Dust and Clean! DUCLEAN!
             </p>
         </div>
     </section>
     <section class="service">
         <div class="inner flex">
+
             <div class="left">
                 <h3>news &amp; notice <a href="<?php echo G5_BBS_URL ?>/board.php?bo_table=notice">
                         <i class="xi-plus"></i></a></h3>
-                <? echo latest("theme/main_web", "qa",5, 25);?>
+                <? echo latest("theme/money001", "qa",5, 25);?>
             </div>
+
             <div class="center">
                 <!-- * 카카오맵 - 지도퍼가기 -->
                 <!-- 1. 지도 노드 -->
-                <div style="width: 400px" id="daumRoughmapContainer1667184289901"
-                    class="root_daum_roughmap root_daum_roughmap_landing"></div>
+                <div style="width: 400px" id="daumRoughmapContainer1667184292612"
+                    class="root_daum_roughmap root_daum_roughmap_landing">
+                </div>
 
                 <!--
 	2. 설치 스크립트
@@ -53,9 +56,9 @@ include_once(G5_THEME_PATH.'/head.php');
                 <!-- 3. 실행 스크립트 -->
                 <script charset="UTF-8">
                 new daum.roughmap.Lander({
-                    "timestamp": "1667184289901",
-                    "key": "2cauf",
-                    //"mapWidth" : "640",
+                    "timestamp": "1667184292612",
+                    "key": "2caug",
+                    //"mapWidth": "640",
                     "mapHeight": "200"
                 }).render();
                 </script>

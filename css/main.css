@@ -13,8 +13,8 @@ address { font-style: normal; }
 .inner { width: 1200px; margin: 0 auto; }
 .flex { display: flex; flex-direction: row; }
 .section { padding: 100px 0; }
-.sectionh2 { font-size: 30px; font-weight: 500; margin: 0 0 20px 0; }
-.sectionp.title { line-height: 1; font-size: 17px; margin: 0 0 40px 0; }
+.section h2 { font-size: 30px; font-weight: 500; margin: 0 0 20px 0; }
+.section p .title { line-height: 1; font-size: 17px; margin: 0 0 40px 0; }
 
 .Wrap {}
 
@@ -23,8 +23,8 @@ address { font-style: normal; }
 
 .header { line-height: 100px; border-bottom: 1px solid var(--gc); }
 .header h1 { font-size: 0; }
-.header.flex { justify-content: space-between; }
-.header.gnb>ul { display: flex; gap: 40px; font-size: 18px; font-weight: 500; }
+.header .flex { justify-content: space-between; }
+.header .gnb>ul { display: flex; gap: 40px; font-size: 18px; font-weight: 500; }
 
 .main_visual { position: relative; }
 .main_visual .main_slide figure { height: 700px; }
@@ -45,16 +45,19 @@ address { font-style: normal; }
 .service .inner h3 { font-size: 18px; line-height: 2; border-bottom: 1px solid var(--gc); margin: 0 0 20px 0; }
 
 .sub_page {}
-.sub_page.page { background: var(--mc); color: var(--wc); line-height: 40px; }
-.sub_page.page ol { justify-content: flex-end; gap: 30px; }
+.sub_page .page { background: var(--mc); color: var(--wc); line-height: 40px; }
+.sub_page .page ol { justify-content: flex-end; gap: 30px; }
 .sub_page article { flex: 1; padding: 40px 50px 40px 0; overflow: hidden; }
 .sub_page aside { width: 300px; padding: 40px 0 0 40px; border-left: 1px solid var(--gc); min-height: 600px; }
 .sub_page article h2 { line-height: 60px; border-bottom: 1px solid var(--gc); font-size: 22px; font-weight: 700; margin: 0 0 50px 0; }
 .sub_page .lnb { margin: 0 0 40px 0; }
 .sub_page .lnb li { line-height: 40px; border-bottom: 1px solid var(--gc); padding: 0 0 0 20px; }
 .sub_page .lnb li.on { background: var(--mc); color: var(--wc); }
+
 .customer h3 { line-height: 2; border-bottom: 1px solid var(--gc); margin: 0 0 20px 0; }
 .customer .contact .tel a { display: block; font-size: 30px; font-weight: 700; margin: 0 0 10px 0; }
+.customer .contact .tel i { font: normal normal normal 14px/1 FontAwesome; font-size: 25px; margin: 0 7px 0 0;}
+.customer .contact .tel i::before {content: "\f095";}
 
 .sub_content { overflow: hidden; }
 .sub_content p { line-height: 1.45; margin: 0 0 20px 0; }

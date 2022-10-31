@@ -24,7 +24,9 @@ if(G5_COMMUNITY_USE === false) {
 <footer class="footer">
     <ul>
         <li>주소 : <?=$as_address?>&nbsp;&nbsp;사업자등록번호 : <?=$as_num?></li>
-        <li>대표전화번호 : <?=$as_tel?>&nbsp;&nbsp;팩스 : <?=$as_fax?></li>
+        <li>
+            대표전화번호 : <?=$as_tel?>&nbsp;&nbsp;팩스 : <?=$as_fax?>
+        </li>
     </ul>
     <address>
         copyright &copy; <?=$as_title?> allrights reserved.

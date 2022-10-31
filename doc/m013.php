@@ -1,7 +1,7 @@
 <?php
 include_once('../../../common.php');
 $page_num = 3;
-$page_title = "지속가능경영";
+$page_title = "진공청소기";
 include_once(G5_THEME_PATH.'/head.php');
 ?>
 
