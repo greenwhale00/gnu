@@ -34,9 +34,11 @@ include_once(G5_THEME_PATH.'/head.php');
         <div class="inner flex">
 
             <div class="left">
-                <h3>news &amp; notice <a href="<?php echo G5_BBS_URL ?>/board.php?bo_table=notice">
-                        <i class="xi-plus"></i></a></h3>
-                <? echo latest("theme/money001", "qa",5, 25);?>
+                <h3>news &amp; notice
+                    <a href="<?php echo G5_BBS_URL ?>/board.php?bo_table=notice">
+                        <i class="xi-plus"></i></a>
+                </h3>
+                <? echo latest("theme/main_web", "notice",5);?>
             </div>
 
             <div class="center">

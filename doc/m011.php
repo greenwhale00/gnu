@@ -6,8 +6,6 @@ include_once(G5_THEME_PATH.'/head.php');
 ?>
 
 
-
-
 <div class="sub_content">
     <h3>CEO 인사말</h3>
     <p class="title"><?=$as_slogan?></p>

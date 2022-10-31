@@ -51,7 +51,7 @@ if ($config['cf_analytics']) {
 
 <?
 if($_GET["bo_table"]=="qa") {$page_num = 4;}
-else if ($_GET["bo_table"]=="notice") {$page_num = 5;}
+else if ($_GET["bo_table"]=="notice") {$page_num = 6;}
 //else {$page_num = "0";}
 //php는 땀을 중요시한다.
 ?>

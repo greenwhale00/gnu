@@ -36,7 +36,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
             <li><?=$as_slogan?></li>
             <li>
                 <a href="/gnu/adm" target="_blank">
-                    <i class="xi-bars"></i>
+                    <i class="fa-sharp fa-solid fa-gear"></i>
                 </a>
             </li>
         </ul>

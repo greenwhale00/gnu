@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 @import url('https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
 
-html { --mc: #183691; --gc: #dddddd; --wc: #f9f9f9; }
+html { --mc: #424242; --gc: #dddddd; --wc: #f9f9f9; }
 body { line-height: 1; font-family: 'Roboto', 'Noto Sans KR', sans-serif; font-size: 16px; color: #444444; }
 a { color: inherit; }
 ol { list-style: none; }
@@ -20,6 +20,8 @@ address { font-style: normal; }
 
 .top_slogan { border-bottom: 1px solid var(--gc); line-height: 1.8; font-size: 14px; }
 .top_slogan>ul { justify-content: space-between; }
+.top_slogan>ul i { font: normal normal normal 14px/1 FontAwesome; }
+.top_slogan>ul i::before { content: "\f013"; }
 
 .header { line-height: 100px; border-bottom: 1px solid var(--gc); }
 .header h1 { font-size: 0; }
