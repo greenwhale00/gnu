@@ -52,12 +52,20 @@ address {font-style: normal;}
 .sub_page .page ol { justify-content: flex-end; gap: 30px; }
 
 .sub_page article {flex: 1; padding: 40px 50px 40px 0; overflow: hidden;}
-.sub_page article h3 {line-height: 60px; border-bottom: 1px solid var(--gc); font-size: 18px; margin: 0 0 50px 0;}
+.sub_page article h2 {line-height: 60px; border-bottom: 1px solid var(--gc); font-size:22px; font-weight: 700; margin: 0 0 50px 0;}
 
 .sub_page aside {width: 400px; padding: 40px 0 0 40px; border-left: 1px solid var(--gc);}
 
 .sub_page .lnb li {line-height: 40px; border-bottom: 1px solid var(--gc);}
 .sub_page .lnb li.on {background: var(--mc); color: var(--wc);}
+
+.sub_content {overflow: hidden;}
+.sub_content p {line-height: 1.45; nav-right: 0 0 20px 0;}
+.sub_content p.title {line-height: 1; margin: 0 0 30px 0;}
+.sub_content h3, .sub_content strong {display: block; font-size: 18px; font-weight: 500; margin: 0 0 20px 0;}
+.sub_content figure {margin: 0 0 50px 0;}
+.sub_content img {max-width: 100%;}
+
 
 .footer {border-top: 1px solid var(--gc); padding: 50px 0; text-align: center;}
 .footer ul {margin: 0 0 20px 0;}

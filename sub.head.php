@@ -17,9 +17,10 @@
             </li>
         </ol>
     </div>
+
     <div class="inner flex">
         <article class="section">
-            <h3>
+            <h2>
                 <?
                 if($bo_table) {
                     echo $board[bo_subject];
@@ -27,4 +28,4 @@
                     echo $page_title;
                 }
                 ?>
-            </h3>
+            </h2>
